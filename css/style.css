@@ -141,6 +141,48 @@ li{
     border-radius: 50%;
     width: 80%;
 }
+.skils_info li{
+  display: flex;
+  justify-content: space-between;
+}
+.lvl{
+ margin-left: 15px;
+ background: #ffffff;
+ height: 35px;
+ width: 200px;
+ border-radius: 15px;
+}
+.lvl_html ,.lvl_css,.lvl_js,.lvl_os,.lvl_figma,.lvl_git,.lvl_vscode{
+  text-align: center;
+  height: 35px;
+  width: 150px;
+  border-radius: 15px 0 0 15px;
+  background: #ffa100;
+}
+.lvl_css{
+  width: 120px;
+}
+.lvl_js{
+  width: 160px;
+}
+.lvl_git{
+  width: 140px;
+}
+.lvl_figma{
+  width: 132px;
+}
+.lvl_os{
+  width:180px;
+}
+.lvl_vscode{
+  width: 164px;
+}
+.educetion_list li{
+  font-size: 35px;
+}
+.educetion_list li span{
+  font-size: 20px;
+}
 .footer {
   margin-top: -70px;
   box-shadow: 0 0 10px #00000080;
