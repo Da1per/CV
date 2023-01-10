@@ -138,8 +138,9 @@ li{
 
 }
 .avatar{
-    border-radius: 50%;
-    width: 80%;
+    border-radius: 100%;
+    width: 50%;
+    
 }
 .skils_info li{
   display: flex;
@@ -194,7 +195,7 @@ li{
     justify-content: space-around;
 }
 .link_git{
-    color:#000872 ;
+    color:#ffffff ;
     
 }
 .img_rs{
