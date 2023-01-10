@@ -1,24 +1,22 @@
-$( document ).ready(function(){
+function ready(){
   function checkWidth() {
-    var windowWidth = $('body').innerWidth(),
-        elem = $(".nav_bar");
+    var windowWidth = document.documentElement.scrollWidth,
+        elem = document.getElementById('nav_bar')
     if(windowWidth < 480){
-      elem.addClass('mobile_bg');
+      elem.classList.add('mobile_bg');
     }
     else{
-      elem.removeClass('mobile_bg');
+      elem.classList.remove('mobile_bg');
     }
   }
   checkWidth();
-  $(window).resize(function(){
-    checkWidth();
-  });
-  $(".mobile_on").click(function(){ 
-  $(".nav_bar").toggleClass('mobile_bg'); 
-    });
-//  $('.en').addClass('dis');
-//  $( ".first" ).hover(function(){
-//	  $( this ).toggleClass( "under" );
-//  $( ".en" ).toggleClass( "dis" ) ;
-//	 });
-	});
+  document.addEventListener("resize", checkWidth)
+ // $(window).resize(function(){
+ //   checkWidth();
+ // });
+ var mobOn = document.getElementById('mobile_on'),
+  navBar = document.querySelector('.nav_bar');
+ mobOn.onclick = function(){navBar.classList.toggle('mobile_bg'); 
+    };
+	}
+  document.addEventListener("DOMContentLoaded", ready)
