@@ -232,7 +232,7 @@ border-radius: 15px;
   .nav_list{
     margin: 0;
     padding: 0;
-    grid-template-columns: 120px 120px 
+    grid-template-columns: 120px 120px ;
   }
   .skils_info li{
     text-align: center;
@@ -241,7 +241,7 @@ border-radius: 15px;
     margin: 0.5em;
   }
   .code_ex_size{
-    font-size: 11px;
+    font-size: 10px;
   }
   .educetion_list li{
     font-size: 18px;
