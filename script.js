@@ -2,7 +2,6 @@ function ready(){
   function checkWidth() {
     var windowWidth = document.documentElement.scrollWidth,
         elem = document.querySelector('.nav_bar');
-    console.log(elem)
     if(windowWidth < 480){
       elem.classList.add('mobile_bg');
     }
