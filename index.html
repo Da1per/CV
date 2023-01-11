@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="shortcut icon" href="https://avatars.githubusercontent.com/u/99079751?v=4" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="mobile_on">
+                <div class="elem1"></div>
+                <div class="elem2"></div>
+                <div class="elem3"></div>
+            </div>
+            <nav class="nav_bar">
+                <ul class="nav_list">
+                    <li><a class="nd nav_link text_code" href="#about">About</a></li>
+                    <li><a class="nd nav_link text_code" href="#contacts">Contacts</a></li>
+                    <li><a class="nd nav_link text_code" href="#contacts"> Skils</a></li>
+                    <li><a class="nd nav_link text_code" href="#skils"> Code</a></li>
+                    <li><a class="nd nav_link text_code" href="#code_ex">Projects</a></li>
+                    <li><a class="nd nav_link text_code" href="#educetion">Education</a></li>
+                    <li><a class="nd nav_link text_code" href="#english"> English</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container flex">
+            <div id="about" class="about shadow pd mt">
+                <ul id="info" class="about_info">	
+                    <li><img class="avatar" src="assets/img/avatar.png" alt="avatar"></li>
+                    <li><h1 class="mt">Alisher Rakhmatullaev</h1></li>
+                    <li>Junior Frontend Developer</li>
+                </ul> 
+            </div>
+            <div id="contacts" class="contacts mt pd shadow">
+                <h2>Contacts</h2>
+                <ul class="contact_info code_format">
+                    <li><img class="ico" src="assets/svg/geo.svg" alt="geo"> address:<span class="text_code_orange"> Smolevichi ,Belarus</span></li>
+                    <li><img class="ico" src="assets/svg/email.svg" alt="email"> e-mail: <a href="mailto:kiborg7075@gmail.com" class="text_code_orange nd">kiborg7075@gmail.com</a></li>
+                    <li><img class="ico" src="assets/svg/linkedInsvg.svg" alt="linkedIn"> linkedIn: <a href="https://www.linkedin.com/in/alisher-rakhmatullaev-b35482255/" class="text_code_orange nd">alisher-rakhmatullaev</a></li>
+                    <li><img class="ico" src="assets/svg/github.svg" alt="github"> gitHub: <a href="https://github.com/Da1per" class="text_code_orange nd" >Da1per</a></li>
+                    <li><img class="ico" src="assets/svg/codeWars.svg" alt="codeWars"> codeWars:<a href="https://www.codewars.com/users/rsschool_c81b6c38a083b4e2" class="text_code_orange nd"> DaLPer</a></li>
+                </ul>
+            </div>
+            <div id="skils" class="skils mt pd shadow">
+                <h2>Skils</h2>
+                <ul class="skils_info code_format">
+                    <li>HTML: <div class="lvl"><div class="lvl_html">75%</div></div></li>
+                    <li>CSS: SASS, Bootstrap, BEM" <div class="lvl"><div class="lvl_css">60%</div></div></li>
+                    <li>JavaScript: ES6+,DOM,OOP,Functional Programming <div class="lvl"><div class="lvl_js">80%</div></div></li>
+                    <li>Version control: Git <div class="lvl"><div class="lvl_git">70%</div></div></li>
+                    <li>Figma:<div class="lvl"><div class="lvl_figma">56%</div></div></li>
+                    <li>OS:  Windows, Linux <div class="lvl"><div class="lvl_os">90%</div></div></li>
+                    <li>Editors: VSCode <div class="lvl"><div class="lvl_vscode">72%</div></div></li>
+                </ul>
+            </div>
+            <div id="code_ex" class="code mt pd shadow">
+                <h2>Code</h2>
+                <pre class="code_ex_size">
+                    <code>
+      function digitalRoot(n) {
+        let num=n
+        for(let i=0;num.toString().length>1;i++){
+          numToArr(num)}
+        function numToArr(nums){
+          return (nums.toString().split("").reduce((acum,num1)=>{
+             return(num=+acum+ +num1)
+             }))}
+        return num}</code>
+                    </pre>
+            </div>
+            <div  id="projects" class="projects mt pd shadow">
+                <h2> Projects</h2>
+                <p class="text_proj">project: <span class="text_code_orange">coming soon ))</span> </p>
+            </div>
+            <div id="educetion" class="educetion mt pd shadow">
+                <h2>Education</h2>
+                <ul id="skils_info"  class="educetion_list">
+                    <li>BelarusianNationalTechnicalUniversity: <span class="text_code_orange">Faculty of Information Technology and Robotics (Automated electric drives)</span></li>
+                    <li>Freecodecamp: <a class="nd text_code_orange" href="https://www.freecodecamp.org/certification/DaLPer/javascript-algorithms-and-data-structures">JavaScript Algorithms and Data Structures</a></li>
+                </ul>
+            </div>
+            <div id="english" class="english mt pd shadow">
+                <h2>English</h2>
+                <ul class="code_format">
+                    <li>EnglishLVL: <span class="text_code_orange">A2+</span></li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="ft">
+                <a class="link_git nd" href="https://github.com/Da1per">Da1per</a>
+                2023
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
